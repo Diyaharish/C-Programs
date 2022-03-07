@@ -26,7 +26,7 @@ int main()
          case 2:
          item=pop();
          if(item!=-1)
-         printf("Item is %d\n",item);
+         printf("Item popped is %d\n",item);
          break;
 
          case 3:
@@ -37,6 +37,7 @@ int main()
 
          case 4:
          display();
+          break;
      }
     } while (ch!=5);
 }
